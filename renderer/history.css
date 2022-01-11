@@ -1,0 +1,59 @@
+dt, dd {
+    float: left;
+}
+
+dd {
+    margin-left: 15px;
+}
+
+.entries_section {
+    height: 95%;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
+
+.entry {
+    border-top: 2px outset #8e8e8e;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.sub_entry {
+    height: 90px;
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+}
+    .sub_entry:hover {
+        background-color: #80e27e;
+    }
+
+.info_holder {
+    float: left;
+    width: 80%;
+}
+
+.avg_polution_holder {
+    position: absolute;
+    text-align: center;
+    float: right;
+    right: 20px;
+    width: 25%;
+}
+
+.dl_separator {
+    border: none;
+}
+
+.avg_polution {
+    top: 1px;
+    font-size: 30px;
+    font: bold;
+    color: forestgreen;
+    line-height: 20px;
+}
+
+#empty_history {
+    visibility: visible;
+    text-align: center;
+}
